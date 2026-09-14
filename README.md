@@ -1,16 +1,13 @@
-## Hi there 👋
+# Hi, I'm Feranmi
 
-<!--
-**Shodunke-Feranmi/Shodunke-Feranmi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a data analyst beginner also a University student now building projects in Excel, SQL and Power BI
 
-Here are some ideas to get you started:
+## Tools I work with
+- Microsoft Excel
+- SQL
+- Power BI
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  ## My Projects
+  - [Furniture-sales-Project] (....)
+ 
+ 
