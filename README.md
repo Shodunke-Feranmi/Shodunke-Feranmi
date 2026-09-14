@@ -8,6 +8,6 @@ I'm a data analyst beginner also a University student now building projects in E
 - Power BI
 
   ## My Projects
-  - [Furniture-sales-Project] (https://github.com/Shodunke-Feranmi/Furniture-sales-excel-Project)
+  - [Furniture-sales-excel-Project] (https://github.com/Shodunke-Feranmi/Furniture-sales-excel-Project)
  
  
