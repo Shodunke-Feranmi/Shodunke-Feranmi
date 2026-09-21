@@ -83,7 +83,7 @@ Tools: Microsoft Excel
 I'm always open to connecting with other students, analysts, developers, and professionals interested in technology and data.
 
 * 📧 Email: [shodunkeferanmi@gmail.com](mailto:shodunkeferanmi@email.com)
-* 🐙 GitHub: [@YourUsername](https://github.com/YourUsername)
+* 🐙 GitHub: [@YourUsername](https://github.com/Shodunke-Feranmi)
 
 ---
 
