@@ -9,5 +9,5 @@ I'm a data analyst beginner also a University student now building projects in E
 
   ## My Projects
   - [Furniture_Sales Project(AutoRecovered).xlsx](https://github.com/Shodunke-Feranmi/Furniture-sales-excel-Project/blob/main/Furniture_Sales%20Project(AutoRecovered).xlsx)
-  - [Car-45-data] (https://github.com/Shodunke-Feranmi/Car45-Sales/blob/main/Car45_datacompleted.xlsx)
+  - [Car-45-data](https://github.com/Shodunke-Feranmi/Car45-Sales/blob/main/Car45_datacompleted.xlsx)
   - [MetroBank Customersrecovered.xlsx](https://github.com/Shodunke-Feranmi/MetroBank-Project/blob/main/MetroBank%20Customersrecovered.xlsx)
