@@ -46,7 +46,7 @@ A 5-week finance analytics case study focused on understanding customers, accoun
 🔗 [View Project](https://github.com/Shodunke-Feranmi/MetroBank-Analysis-Project/blob/main/README.md)
 
 ---
-🚗 Car45 Sales Analysis
+### 🚗 Car45 Sales Analysis
 
 A data analysis project focused on analyzing Car45 sales data to uncover useful business insights and understand sales performance.
 
@@ -55,7 +55,7 @@ Tools: Data Analytics | Excel
 🔗 [View Project](https://github.com/Shodunke-Feranmi/Car45-Sales/blob/main/README.md)
 
 ---
-🪑 Furniture Sales Excel Project
+### 🪑 Furniture Sales Excel Project
 
 An Excel-based sales analysis project focused on working with sales data, analyzing business performance, and presenting insights using Microsoft Excel.
 
