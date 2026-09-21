@@ -1,4 +1,4 @@
-# Hi, I'm Feranmi 👋
+# 👋 Shodunke-Feranmi
 
 ### 💻 Data Analyst | Computer Science Student | Aspiring Data Professional
 
