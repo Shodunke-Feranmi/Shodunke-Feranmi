@@ -75,19 +75,26 @@ A batch of MySQL projects covering CRM sales, banking fraud risk, academic recor
 Star-schema analysis of transaction fraud, identifying Velocity Fraud as the most frequent fraud type and Account Takeover as the costliest, with risk profiling by customer segment, channel, and merchant.
 `MySQL` `Star Schema` `CTEs` `Fraud Detection`
 
-🔗 [View Project]
+🔗 [View Project](https://github.com/Shodunke-Feranmi/Northaxis-Bank-Risk-analysis)
+
+---
  
 ### 🎓Student Biodata Database
 A relational database linking student records, departments, courses, and attendance, with integrity checks that catch students missing from linked tables.
 `MySQL` `Schema Design` `Data Integrity`
 
 🔗 [View Project](https://github.com/Shodunke-Feranmi/Student-biodata)
+
+
+---
  
 ### 📺 Parks and Recreation: Episode & Ratings Analysis
 Analysis of 125 episodes' viewership and IMDb ratings, finding an inverse relationship between live viewership and critical reception across seasons.
 `MySQL` `Aggregation` `Ranking Queries`
 
 🔗 [View Project]
+
+---
  
 ### 🚧 Road and Transport Accidents Analysis
 Analysis of 342K+ people involved in road accidents across 37 states, identifying a high-risk state cluster (Kaduna, Ogun, FCT) and a 2022 outlier year in both volume and severity.
