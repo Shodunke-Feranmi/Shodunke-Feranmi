@@ -126,10 +126,4 @@ I'm always open to connecting with other students, analysts, developers, and pro
 
 ---
 
-## ⚡ Fun Fact
-
-> I believe good data doesn't just answer questions — it helps people make better decisions.
-
----
-
  Feel free to explore my repositories and follow my journey as I continue learning, building, and growing in the world of data.
