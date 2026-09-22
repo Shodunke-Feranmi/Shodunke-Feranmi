@@ -100,7 +100,7 @@ Analysis of 125 episodes' viewership and IMDb ratings, finding an inverse relati
 Analysis of 342K+ people involved in road accidents across 37 states, identifying a high-risk state cluster (Kaduna, Ogun, FCT) and a 2022 outlier year in both volume and severity.
 `MySQL` `CASE Logic` `Temporary Tables` 
 
-🔗 [View Project]
+🔗 [View Project](https://github.com/Shodunke-Feranmi/Road-and-Transport-)
 
 
 ---
