@@ -69,26 +69,31 @@ Tools: Microsoft Excel
  
 A batch of MySQL projects covering CRM sales, banking fraud risk, academic records, entertainment analytics, and public safety data.
  
-### 💼 [CRM Sales Opportunities Analysis](https://github.com/your-username/your-repo)
-Analysis of a 7,375-deal sales pipeline across accounts, products, regions, and sales agents, uncovering revenue concentration, pricing discipline, and seasonal win-rate swings.
-`MySQL` `Joins` `Conditional Aggregation`
-🔗 [View Project](
+
  
-### 🏦 [North Axis Bank: Fraud & Risk Analysis](https://github.com/your-username/your-repo)
+### 🏦 North Axis Bank: Fraud & Risk Analysis
 Star-schema analysis of transaction fraud, identifying Velocity Fraud as the most frequent fraud type and Account Takeover as the costliest, with risk profiling by customer segment, channel, and merchant.
 `MySQL` `Star Schema` `CTEs` `Fraud Detection`
+
+🔗 [View Project]
  
-### 🎓 [Student Biodata Database](https://github.com/your-username/your-repo)
+### 🎓Student Biodata Database
 A relational database linking student records, departments, courses, and attendance, with integrity checks that catch students missing from linked tables.
 `MySQL` `Schema Design` `Data Integrity`
+
+🔗 [View Project](https://github.com/Shodunke-Feranmi/Student-biodata)
  
-### 📺 [Parks and Recreation: Episode & Ratings Analysis](https://github.com/your-username/your-repo)
+### 📺 Parks and Recreation: Episode & Ratings Analysis
 Analysis of 125 episodes' viewership and IMDb ratings, finding an inverse relationship between live viewership and critical reception across seasons.
 `MySQL` `Aggregation` `Ranking Queries`
+
+🔗 [View Project]
  
-### 🚧 [Nigeria Road Traffic Accidents Analysis (2020–2024)](https://github.com/your-username/your-repo)
+### 🚧 Road and Transport Accidents Analysis
 Analysis of 342K+ people involved in road accidents across 37 states, identifying a high-risk state cluster (Kaduna, Ogun, FCT) and a 2022 outlier year in both volume and severity.
 `MySQL` `CASE Logic` `Temporary Tables` 
+
+🔗 [View Project]
 
 
 ---
