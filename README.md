@@ -92,7 +92,7 @@ A relational database linking student records, departments, courses, and attenda
 Analysis of 125 episodes' viewership and IMDb ratings, finding an inverse relationship between live viewership and critical reception across seasons.
 `MySQL` `Aggregation` `Ranking Queries`
 
-🔗 [View Project]
+🔗 [View Project](https://github.com/Shodunke-Feranmi/Parks-and-Rec-SQL-)
 
 ---
  
