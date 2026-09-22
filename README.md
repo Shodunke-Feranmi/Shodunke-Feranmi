@@ -65,6 +65,33 @@ Tools: Microsoft Excel
 
 ---
 
+## 🗄️ SQL Projects
+ 
+A batch of MySQL projects covering CRM sales, banking fraud risk, academic records, entertainment analytics, and public safety data.
+ 
+### 💼 [CRM Sales Opportunities Analysis](https://github.com/your-username/your-repo)
+Analysis of a 7,375-deal sales pipeline across accounts, products, regions, and sales agents, uncovering revenue concentration, pricing discipline, and seasonal win-rate swings.
+`MySQL` `Joins` `Conditional Aggregation`
+🔗 [View Project](
+ 
+### 🏦 [North Axis Bank: Fraud & Risk Analysis](https://github.com/your-username/your-repo)
+Star-schema analysis of transaction fraud, identifying Velocity Fraud as the most frequent fraud type and Account Takeover as the costliest, with risk profiling by customer segment, channel, and merchant.
+`MySQL` `Star Schema` `CTEs` `Fraud Detection`
+ 
+### 🎓 [Student Biodata Database](https://github.com/your-username/your-repo)
+A relational database linking student records, departments, courses, and attendance, with integrity checks that catch students missing from linked tables.
+`MySQL` `Schema Design` `Data Integrity`
+ 
+### 📺 [Parks and Recreation: Episode & Ratings Analysis](https://github.com/your-username/your-repo)
+Analysis of 125 episodes' viewership and IMDb ratings, finding an inverse relationship between live viewership and critical reception across seasons.
+`MySQL` `Aggregation` `Ranking Queries`
+ 
+### 🚧 [Nigeria Road Traffic Accidents Analysis (2020–2024)](https://github.com/your-username/your-repo)
+Analysis of 342K+ people involved in road accidents across 37 states, identifying a high-risk state cluster (Kaduna, Ogun, FCT) and a 2022 outlier year in both volume and severity.
+`MySQL` `CASE Logic` `Temporary Tables` 
+
+
+---
 
 ## 🎯 Current Goals
 
