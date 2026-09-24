@@ -550,6 +550,7 @@ Read together, this project makes a specific, resource-allocation-ready recommen
 
 🔗 [View Project](https://github.com/Shodunke-Feranmi/Road-and-Transport-)
 
+---
 
 ## 🎧 Spotify 2023 Most Streamed Songs Analysis
  
@@ -604,7 +605,10 @@ A five-year streaming dataset (2019–2023) covering top artists, top songs, dan
  
 Read together, this project's real thesis isn't just "here's what's popular on Spotify" — it's "here's what's popular, and here's exactly which two charts on this dashboard can't be trusted until their measures are fixed." That's the sentence I'd lead with if asked to summarize it: **the data tells a real story about artist and song concentration, but two of the six visuals are producing numbers that are mathematically impossible, and I can show exactly why.**
  
-📊 Full write-up, dashboard, and workbook: [Spotify 2023 Streams repo →](https://github.com/your-username/your-repo)
+📊 Full write-up, dashboard, and workbook: 
+
+
+🔗 [View Project](https://github.com/Shodunke-Feranmi/Spotify2023-Streams)
 
 ---
 
