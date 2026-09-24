@@ -551,6 +551,61 @@ Read together, this project makes a specific, resource-allocation-ready recommen
 🔗 [View Project](https://github.com/Shodunke-Feranmi/Road-and-Transport-)
 
 
+## 🎧 Spotify 2023 Most Streamed Songs Analysis
+ 
+A Power BI dashboard built on Spotify's most-streamed tracks, structured around one goal: find the real signal in the numbers, and catch the places where the dashboard itself was lying.
+ 
+---
+ 
+### The Premise
+ 
+A five-year streaming dataset (2019–2023) covering top artists, top songs, danceability, and platform distribution sounds straightforward to summarize — until you actually read the numbers closely. This project's real value wasn't just building the dashboard, it was catching two places where the visuals were technically rendering but telling the wrong story.
+ 
+---
+ 
+### Section 1: The Real Trend Behind the Numbers
+**Goal:** Establish the streaming trend across 2019–2023 without being misled by a partial final year.
+ 
+**What I did:** Read the "Streams in the Last Five Years" chart and checked each year's total against the others before drawing any conclusion about growth or decline.
+ 
+**Findings:**
+- **2022 was the true peak year at 288bn streams**, up 22.6% from 2021 (235bn)
+- **2023 shows only 78bn** — but this is a partial year of data, not a real collapse in streaming
+- 2020 was the low point (138bn, down 11.5% from 2019), before rebounding sharply in 2021 (+70.3%)
+**Why it matters:** The obvious read of this chart is "streaming fell off a cliff in 2023." That's wrong, and saying it out loud in a defense would be an easy point for a panel to catch. The correct read is that 2022 is the real benchmark year, and 2023 needs to be labeled "year to date" everywhere it appears.
+ 
+---
+ 
+### Section 2: Who Actually Dominates
+**Goal:** Identify which artists and songs carry the platform's total streaming volume.
+ 
+**What I did:** Read the Top 10 Artists and Top 10 Songs charts and summed them against the five-year total.
+ 
+**Findings:**
+- **Ed Sheeran (56bn) and The Weeknd (54bn) lead all artists**, with the top 10 artists combining for **308bn streams**
+- **"Blinding Lights" (18.5bn) is the single most-streamed song**, ahead of "Shape of You" (17.8bn)
+**Why it matters:** This is a genuinely concentrated market — a small number of artists and songs carry a large share of total volume, which matters for anyone using this kind of data to plan licensing, playlist placement, or marketing spend.
+ 
+---
+ 
+### Section 3: Catching Two Broken Charts
+**Goal:** Verify that every chart on the dashboard is actually measuring what its title claims — the most valuable part of this project.
+ 
+**What I did:** Cross-checked the Platform donut chart and the Danceability chart against what a real distribution should look like.
+ 
+**Findings:**
+- **The Platform chart shows an exact 20% split across all 5 platform categories** (Apple Charts, Apple Playlists, Deezer Charts, Deezer Playlists, Shazam Charts) — a real streaming split essentially never lands on a perfectly even five-way tie
+- **The Danceability chart shows values up to 705** — impossible for a metric that should sit on a 0–100% scale
+**Why it matters:** Both point to the same underlying cause: a measure summing a value once per matching row instead of aggregating it correctly (most likely per platform-tag or per duplicate chart appearance). This is the single most defensible finding in the project, because it's not an opinion — it's a chart that's mathematically impossible as labeled, caught by simply reading the axis carefully instead of trusting the visual.
+ 
+---
+ 
+### The Full Picture
+ 
+Read together, this project's real thesis isn't just "here's what's popular on Spotify" — it's "here's what's popular, and here's exactly which two charts on this dashboard can't be trusted until their measures are fixed." That's the sentence I'd lead with if asked to summarize it: **the data tells a real story about artist and song concentration, but two of the six visuals are producing numbers that are mathematically impossible, and I can show exactly why.**
+ 
+📊 Full write-up, dashboard, and workbook: [Spotify 2023 Streams repo →](https://github.com/your-username/your-repo)
+
 ---
 
 ## 🎯 Current Goals
