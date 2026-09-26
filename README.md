@@ -669,7 +669,7 @@ Most projects stop at "here's the dashboard." This one is structured to show the
 Read together, this project's real thesis is: **build the SQL analysis first as ground truth, then never trust a dashboard's absolute numbers just because its rankings and percentages look right — check both, because rate-based measures can hide a doubling error that dollar totals will not.** That's a genuinely defensible, technical finding, and it's the direct result of using three tools instead of one and refusing to let the last one go unchecked.
  
 📊 Full write-up, SQL script, Excel workbook, and dashboard: 
-🔗 [View Project](
+🔗 [View Project](https://github.com/Shodunke-Feranmi/CRM-Sales-Opportunities)
  
 --
 
