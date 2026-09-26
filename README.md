@@ -724,7 +724,7 @@ A regional sales dashboard is only as useful as the labels on its axes. This pro
 Read together, this project makes a specific, calibrated claim: **Mumbai, Kolkata, and Delhi are the real profit centers; Retail and Online are close enough to both deserve investment; and two of the dashboard's own labels (the Bangalore/Bengaluru split and the 2023 partial year) need fixing before any of the regional or growth numbers are presented as final.** That combination — real business insight plus caught labeling errors — is the same pattern I look for on every dashboard before trusting what it shows.
  
 📊 Full write-up, dashboard, and workbook: 
-🔗 [View Project](
+🔗 [View Project](https://github.com/Shodunke-Feranmi/Nike-sales)
 --
 ## 🎯 Current Goals
 
