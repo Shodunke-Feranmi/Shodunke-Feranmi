@@ -671,7 +671,61 @@ Read together, this project's real thesis is: **build the SQL analysis first as 
 📊 Full write-up, SQL script, Excel workbook, and dashboard: 
 🔗 [View Project](
  
+--
 
+## 👟 Nike Sales Dashboard
+ 
+A Power BI dashboard analyzing Nike's regional profit, monthly trend, sales channels, and product performance — built around finding which numbers were real signal and which were data artifacts.
+ 
+---
+ 
+### The Premise
+ 
+A regional sales dashboard is only as useful as the labels on its axes. This project analyzes Nike's profit and sales data across Indian cities, channels, and products — and a meaningful part of the work was checking whether the dashboard's own regional and time-based groupings actually held up under scrutiny.
+ 
+---
+ 
+### Section 1: Where the Profit Actually Sits
+**Goal:** Identify which regions and channels are actually driving Nike's profit.
+ 
+**What I did:** Read the Regional Profits chart and the Sales Channel donut, and summed both against their stated totals.
+ 
+**Findings:**
+- **Mumbai leads all regions in profit (₹115K)**, followed by Kolkata (₹110K) and Delhi (₹95K) — the top three account for over half of the ₹552K total across all seven listed regions
+- **Retail (52.84%) narrowly outsells Online (47.16%)** — close enough that neither channel should be deprioritized
+**Why it matters:** Profit is concentrated in a handful of cities, which is useful for prioritizing investment, but the channel split is close enough that this isn't a "shut down Online" or "shut down Retail" story — both are pulling real weight.
+ 
+---
+ 
+### Section 2: A Duplicate Hiding in Plain Sight
+**Goal:** Verify that every labeled category in the dashboard represents a genuinely distinct entity.
+ 
+**What I did:** Checked the Regional Profits chart's seven city labels against real-world geography.
+ 
+**Findings:**
+- **"Bangalore" and "Bengaluru" both appear as separate regions** in the same chart — but these are the same city, renamed officially in 2014
+**Why it matters:** This is the kind of error that's easy to miss because the chart still renders and looks plausible, but it means one real market's profit is very likely being split across two labels, understating that region's true rank. Catching this before presenting regional rankings is the difference between a dashboard that looks right and one that is right.
+ 
+---
+ 
+### Section 3: Growth That Isn't What It Looks Like
+**Goal:** Check whether the year-over-year unit sales trend is a real growth story.
+ 
+**What I did:** Compared 2023, 2024, and 2025 unit sales directly rather than accepting the jump at face value.
+ 
+**Findings:**
+- **2024 (338 units) and 2025 (332 units) are close to each other**, but **2023 shows only 51 units** — a jump so large (over 500%) that it's a strong signal of a partial year, not real year-over-year growth
+**Why it matters:** Presenting all three years side by side without flagging this would tell an inflated growth story that isn't real. The honest comparison is 2024 vs. 2025 — both strong, roughly flat — with 2023 excluded or clearly labeled as partial.
+ 
+---
+ 
+### The Full Picture
+ 
+Read together, this project makes a specific, calibrated claim: **Mumbai, Kolkata, and Delhi are the real profit centers; Retail and Online are close enough to both deserve investment; and two of the dashboard's own labels (the Bangalore/Bengaluru split and the 2023 partial year) need fixing before any of the regional or growth numbers are presented as final.** That combination — real business insight plus caught labeling errors — is the same pattern I look for on every dashboard before trusting what it shows.
+ 
+📊 Full write-up, dashboard, and workbook: 
+🔗 [View Project](
+--
 ## 🎯 Current Goals
 
 * Build more real-world data analytics projects
