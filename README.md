@@ -612,6 +612,66 @@ Read together, this project's real thesis isn't just "here's what's popular on S
 
 ---
 
+## 💼 CRM Sales Opportunities Analysis (Excel → SQL → Power BI)
+ 
+A full three-tool pipeline — Excel for cleaning, MySQL for analysis, Power BI for visualization — built around a sales pipeline of 7,375 deals. This is the one where cross-checking one tool's output against another caught a real, systematic bug before it could be presented as fact.
+ 
+ 
+---
+ 
+### The Premise
+ 
+Most projects stop at "here's the dashboard." This one is structured to show the full chain: Excel cleaned four raw tables, MySQL ran the actual analysis and is the authoritative source of every number, and Power BI turned that analysis into a 5-page interactive dashboard. The most important part of the project turned out to be verifying that the last step (Power BI) still agreed with the first two.
+ 
+---
+ 
+### Section 1: The SQL Analysis — What's Actually True
+**Goal:** Establish the ground truth before building anything visual on top of it.
+ 
+**What I did:** Ran the full SQL analysis directly against the cleaned CSVs — revenue, win rate, top accounts, top products, and agent/regional performance.
+ 
+**Findings:**
+- **$10.0M in closed revenue** across **7,375 deals**, **4,238 won**, for a **63.15% win rate**
+- **Kan-code, Konex, and Condax** are the top three accounts by revenue
+- **GTX Pro and the GTX series dominate product revenue** (about 73% of the total)
+- Deals close within **±1.5% of list price** — genuine pricing discipline
+- **The agent performance gap (70.4% vs. 55.0%) is far wider than the regional gap (63.9% vs. 62.6%)** — coaching matters more than region
+**Why it matters:** This is the number set everything else gets checked against. Without this step done first and done carefully, there's no way to know later whether the dashboard is telling the truth.
+ 
+---
+ 
+### Section 2: Building the Dashboard — And Everything Lining Up
+**Goal:** Turn the SQL findings into a usable, filterable Power BI report across five pages (Overview, Account Analysis, Product Analysis, Sales Analysis, Sales Team Analysis).
+ 
+**What I did:** Modeled the data in Power BI and rebuilt each SQL question as a corresponding visual, then checked every ranking and percentage against the SQL output.
+ 
+**Findings:**
+- **Every ranking and every percentage matched**: Retail as the top sector, Rangreen's 75% win rate, the 84/79/78 regional account split, West's lead on regional win rate — all consistent with the SQL analysis
+- The dashboard added real value the SQL couldn't: a **filterable, presentation-ready view** anyone on the team could explore without writing a query
+**Why it matters:** Getting the rankings and percentages to match perfectly across two independently-built systems is a strong sign the underlying model was built correctly — which made the next finding stand out even more sharply.
+ 
+---
+ 
+### Section 3: The Numbers That Didn't Match — A Real Bug, Caught
+**Goal:** Stress-test the dashboard by checking its absolute totals against the SQL analysis, not just its rankings.
+ 
+**What I did:** Compared specific dollar and count figures — total revenue, individual account revenue, monthly deal counts — directly between the SQL output and the Power BI dashboard.
+ 
+**Findings:**
+- **Every absolute number in the dashboard is almost exactly 2.0x the real SQL figure**, to three or more significant figures: $10.0M revenue became $20M, Kan-code's $341,455 became $683K, June's 531 deals sold became 1,062
+- **Every percentage-based number stayed correct**, because dividing two doubled numbers cancels the error out — which is exactly why the rankings in Section 2 all looked fine
+**Why it matters:** This is the single most valuable finding in the whole project. A fan-out (many-to-many) relationship in the Power BI data model was silently doubling every summed measure, and it was invisible unless someone specifically checked absolute values against an independent source. I traced a plausible root cause too: the SQL script itself has a real bug where two different source CSVs (`CRMEQaccounts.csv` and `CRMEQsales_team.csv`) both load into the same table, which is exactly the kind of duplicate-key setup that produces this failure mode if carried into the Power BI model.
+ 
+---
+ 
+### The Full Picture
+ 
+Read together, this project's real thesis is: **build the SQL analysis first as ground truth, then never trust a dashboard's absolute numbers just because its rankings and percentages look right — check both, because rate-based measures can hide a doubling error that dollar totals will not.** That's a genuinely defensible, technical finding, and it's the direct result of using three tools instead of one and refusing to let the last one go unchecked.
+ 
+📊 Full write-up, SQL script, Excel workbook, and dashboard: 
+🔗 [View Project](
+ 
+
 ## 🎯 Current Goals
 
 * Build more real-world data analytics projects
